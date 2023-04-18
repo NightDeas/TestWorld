@@ -1,0 +1,104 @@
+[33mcommit e2f12566dd0478b9ce49db302ebba2b456c2ed66[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Tue Jul 28 13:21:27 2015 -0700
+
+    check for a blank caption line
+    
+    Sometimes the caption line is blank. This fix checks to see if the
+    caption is there at all and if not it doesn't bail.
+
+[33mcommit 1234904c5ac0967931b230f6812d417178391b40[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Mon Sep 22 16:57:08 2014 -0400
+
+    change versions to test
+
+[33mcommit d54ec87c6960ae80c0e9ec0d945c52bf93cddb8e[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Mon Sep 22 16:51:18 2014 -0400
+
+    a WebVTT comment should begin with the string NOTE
+
+[33mcommit 32de440b00b0cd5e2fe702798cc825a4d242b2a5[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Mon Sep 22 16:38:47 2014 -0400
+
+    add thousandths of a second seconds-frac. respect line breaks
+
+[33mcommit 608db924ba5a2f469a261717b6e10c24eeb56c64[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Wed Mar 27 11:11:35 2013 -0700
+
+    remove rbx too at least for now
+
+[33mcommit a3f4e0b90d81019002a002f784f6f1fae297edb0[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Wed Mar 27 11:00:03 2013 -0700
+
+    drop support for 1.8.7
+
+[33mcommit cb06fc4dc1e85f9f64d231c75d33911c811079ba[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Wed Mar 27 10:51:52 2013 -0700
+
+    update readme for travis-ci
+
+[33mcommit 5bac6ab9432adbd6eb953730216aaa2eb46aa9c2[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Wed Mar 27 10:29:33 2013 -0700
+
+    travis-ci config
+
+[33mcommit cfa2cb99c317b16553381663542c50d538df921d[m[33m ([m[1;33mtag: v0.0.2[m[33m)[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Sun Feb 17 18:38:45 2013 -0500
+
+    add ability to handle comments starting with the keyword NOTES
+
+[33mcommit 416efd5e9aa0488737cd7b4e2cb64709fc84680a[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Sun Dec 9 00:07:24 2012 -0500
+
+    update installation for published gem
+
+[33mcommit b7b65904f394068ee456d90d5e5c5e5a341a3871[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Tue Oct 16 13:51:53 2012 -0400
+
+    utf-8 encoding fixes
+
+[33mcommit aacd84f60ae21357a71be2d1577622d6d69b79c8[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Thu Jul 5 10:41:58 2012 -0400
+
+    make sure the full first line is being used to check for whether it is a WEBVTT file
+
+[33mcommit bef0043ec37d5c1f2201b5994b21b8c1fcc927a9[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Thu Jul 5 10:29:05 2012 -0400
+
+    remove BOM before trying to process
+
+[33mcommit 891c1cde13b7634335841b5c5e32bc3f5c15f281[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Thu Jul 5 10:19:40 2012 -0400
+
+    allow webvtt to be created from String of whole file
+
+[33mcommit eee7e57c47eeb25121f7578884b35ad82e16282f[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Tue Jul 3 16:39:17 2012 -0400
+
+    clean up README
+
+[33mcommit 4564f4b92f5e6c6d5dc624ee9defd635d41c0d7f[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Tue Jul 3 16:33:34 2012 -0400
+
+    fix Rakefile to allow running tests with rake as well as guard
+
+[33mcommit 9208a620e8816151876d90282fb10b339fd880b1[m
+Author: Jason Ronallo <jronallo@gmail.com>
+Date:   Tue Jul 3 16:27:01 2012 -0400
+
+    initial commit
